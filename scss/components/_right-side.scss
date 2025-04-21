@@ -1,0 +1,39 @@
+
+.right-content__main-content {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow-y: auto;
+}
+
+
+.bullet-list{
+    font-size: .8rem;
+    margin-top: 1.3rem;
+    max-width: 80%;
+    margin-left: 3rem;
+    text-align: left;
+}
+.bullet-list li::before{
+    content: "•";   
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: -40px; 
+}
+.right-content__product{
+    display: flex;
+    margin: 20px 30px;
+    text-align: left;
+    p{
+        line-height: 15px;
+    }
+    img {
+        cursor: pointer;
+        width: 120px;
+        height: 120px;
+        border: solid gray 8px;
+    }
+    img:hover{
+        border: solid red 8px;
+    }
+}
